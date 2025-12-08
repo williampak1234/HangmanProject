@@ -256,7 +256,7 @@ public class HangmanGame {
             hiddenWordState[i] = '_';
         }
 
-        while(chancesLeft > 0 && !gameIsWon) {
+        while(chancesLeft > 0 && gameIsWon) {
             displayGame();
             System.out.println(hiddenWordState);
             String userGuess = getGuess();
