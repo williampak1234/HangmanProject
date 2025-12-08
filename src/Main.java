@@ -83,7 +83,7 @@ public class Main {
     }
 
     private static void endGame() {
-        System.out.println("Thanks so much for playing, have a good day!");
+        System.out.println("Thanks so much for playing, enjoy your day!");
     }
 
     public static void main(String[] args) {
