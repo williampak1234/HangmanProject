@@ -19,13 +19,6 @@ Languages) and a difficulty (Easy, Medium, Hard). The game draws a random word f
 matching list and gives you six chances. After each round it asks whether you want to
 play again.
 
-## Example session
-
-```
-[PASTE A REAL SESSION HERE — start a game, make a couple of guesses including one
-wrong one, and copy the terminal output. 15-20 lines is plenty.]
-```
-
 ## Notes on the design
 
 The program is split across two classes. `Main` handles menu flow, category and
